@@ -129,14 +129,31 @@ font-weight: 700;
 justify-content: space-between;
     margin-left:280px;
     margin-right:377px;
+    align-items: center;
 }
 .title1{
     color: #131318;
-margin-left: 480px;
+margin-left: 780px;
 font-size: 40px;
 font-style: normal;
 font-weight: 800;
-
+margin-top: 100px;
+}
+.title5{
+    color: #131318;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+margin-top: 100px;
+}
+.title6{
+    color: #131318;
+text-align: center;
+margin-right: 500px;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
 }
 .heading{
     color: rgba(19, 19, 24, 0.70);
@@ -357,14 +374,16 @@ transform: rotate(-19.628deg);
 border-radius: 16px;
 background: #FF5400;
 position: relative;
-left: 1040px;
+left: 1100px;
 bottom: 200px;
 }
 .seven-dav{
     display: flex;
+    align-items: center;
     margin-top: 100px;
+    margin-right: 250px;
     margin-left: 250px;
-    gap: 50px;
+    gap: 80px;
 }
 .seve{
     color: #131318;
@@ -384,6 +403,7 @@ bottom: 200px;
 height: 45px;
 border-radius: 8px;
 background: rgba(19, 19, 24, 0.05);
+padding-left: 20px;
 
 
 }
@@ -399,10 +419,66 @@ background: rgba(19, 19, 24, 0.05);
 .seven{
     border: 1px solid lightcoral;
     border-radius: 10px;
+    padding: 30px;
 }
 .claso{
-
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    position: relative;
+    top: 15px;
 }
 .claso1{
     
+    color: #FFF;
+   text-align: center;
+    font-style: normal;
+    font-size: 24px;
+}
+.foot{
+    width: 2000px;
+height: 502px;
+background: rgba(19, 19, 24, 0.05);
+margin-top: 60px;
+}
+.top10{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 800px;
+    position: relative;
+    top: 80px;
+}
+.icon{
+    width: 174.322px;
+height: 24px;
+margin-left: 900px;
+margin-top: 140px;
+position: relative;
+bottom: 30px;
+
+
+}
+.ses-pera{
+    width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 600px;
+position: relative;
+top: 50px;
+}
+.ses{
+    color: #131318;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+}
+.evan{
+width: 700px;
 }

@@ -210,7 +210,7 @@ margin-right: 400px;
     margin-left: 120px;
     margin-top: 48px;
 }
-.devil1{
+.devil5{
     display: flex;
     gap: 30px;
     margin-top: 48px;  
@@ -664,3 +664,135 @@ bottom: 30px;
     font-size: 55px;
     margin-left: 50px;
 }
+
+
+@media screen and (max-width: 660px) {
+    .top{
+       flex-direction: column;
+    } 
+   .first-dev{
+    margin-left: 0%;
+    height: 700px;
+    width: 800px;
+   }
+   .selector{
+    flex-direction: column;
+   }
+   .second-dev{
+    flex-direction: column;
+    margin-left:50%;
+   }
+   .devil, .devil2{
+    flex-wrap: wrap;
+    margin-left: 0%;
+   }
+   .devil5{
+    flex-wrap: wrap;
+   }
+   .mal{
+    top: 180px;
+    left: 50%;
+}
+.mal1{
+    top: 550px;
+    left: 4%;
+}
+.devil2{
+    margin-left: 0%;
+    margin-top: 0px;
+}
+.devil5{
+    margin-top:0%;
+}
+.sri{
+    top: 450px;
+    left:150px;
+}
+.north{
+    top: 665px;
+    left: 160px;
+}
+.kasmir{
+    top: 840px;
+    left: 120px;
+}
+.bang{
+    top: 250px;
+    left: 160px;
+}
+.ban{
+    top: 490px;
+    left: 20px;
+}
+.title1,  .about2{
+    margin-left: 0%;
+}
+.demu{
+    flex-direction: column;
+    margin-left: 0%;
+}
+.amad{
+    margin-left: 0%;
+}
+.seco{
+    margin-left: 0px;
+   width: 400px;
+}
+.middle-section, .section-mid{
+    margin-left: 0%;
+    flex-direction: column;
+}
+/* .title6,.description{
+align-items: flex-start;
+margin-right: 100%;
+} */
+.bonus, .bonus1, .bonus2{
+    flex-wrap: wrap;
+    left: 0%;
+}
+.seven-dav{
+    flex-direction: column;
+}
+.seven{
+   padding: 0%;
+}
+.foot{
+    width:500px;
+height: 502px;
+
+}
+.pic1{
+    margin-left: 0%;
+}
+.dream{
+    margin-left: 0%;
+}
+.icon{
+    
+margin-left: 80px;
+margin-top: 140px;
+
+
+}
+.ses-pera{
+        align-items: none;
+        margin-left:0%;
+        margin-right: auto;
+    
+    
+}
+.top10{
+   
+    margin-left: 80px;
+    
+}
+}
+
+
+
+
+
+
+
+
+

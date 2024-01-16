@@ -204,10 +204,23 @@ font-weight: 400;
 margin-left: 600px;
 margin-right: 400px;
 }
-.devil, .devil1, .devil2{
+.devil{
     display: flex;
     gap: 30px;
-    margin-left: 280px;
+    margin-left: 120px;
+    margin-top: 48px;
+}
+.devil1{
+    display: flex;
+    gap: 30px;
+    margin-top: 48px;  
+    /* margin-right: 800px; */
+    margin-right: 100%;
+}
+.devil2{
+    display: flex;
+    gap: 30px;
+    margin-left: 70px;
     margin-top: 48px;
 }
 .goust{
@@ -306,6 +319,8 @@ backdrop-filter: blur(2.5px);
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
+    padding: 30px;
+   margin-bottom: 20px;
 }
 .tiponi{
     width: 210px;
@@ -481,4 +496,134 @@ top: 50px;
 }
 .evan{
 width: 700px;
+}
+.description{
+    margin-left: 17%;
+    width: 643px;
+color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+.logo{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+ margin-left: 50px;
+}
+.one{
+    color: #131318;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+
+}
+.price{
+    width: 452px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.red{
+    color: #FF5400;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.batton{
+    width: 150px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+}
+
+.mal{
+    position: relative;
+    top: 100px;
+    left: 470px;
+    color: #FFF;
+text-align: center;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.mal1{
+    position: relative;
+    top: 100px;
+    left: 970px;
+    color: #FFF;
+text-align: center;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.sri{
+    position: relative;
+    top: 100px;
+    left: 520px;
+    color: #FFF;
+text-align: center;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.north{
+    position: relative;
+    top: 100px;
+    left: 870px;
+    color: #FFF;
+text-align: center;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.kasmir{
+    position: relative;
+    top: 100px;
+    left: 1150px;
+    color: #FFF;
+text-align: center;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.bang{
+    position: relative;
+    top: 100px;
+    left: 1200px;
+    color: #FFF;
+text-align: center;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.ban{
+    position: relative;
+    top: 100px;
+    left: 400px;
+    color: #FFF;
+text-align: center;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.group{
+    gap: 10px;
 }

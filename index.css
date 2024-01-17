@@ -6,18 +6,20 @@
 .top{
     display: flex;
     gap:43px ;
-    margin-right: 135px;
-    margin-left: 135px;
+    margin-right: 10%;
+    margin-left: 10%;
     align-items: center;
 }
 .first-dev{
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 15%, rgba(19, 19, 24, 0.00) 80%) ,url(./Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
-    height: 650px;
-    width: 1170px;
+    background-size: cover;
+    height: 600px;
+    /* width: 1170px; */
     border-radius: 20px;
     margin-top: 49px;
-    margin-left: 300px;
+    /* margin-left: 300px; */
+    margin: 10%;
 }
 .title{
     color: #FFF;
@@ -27,7 +29,7 @@ font-weight: 800;
 line-height: normal;
 position: relative;
 top:115px;
-margin-left:295px ;
+margin-left:35%;
 }
 .title-des{
     width: 676px;
@@ -39,7 +41,7 @@ font-weight: 400;
 line-height: 26px;
 position: relative;
 top: 80px;
-left: 210px;
+margin-left: 30%;
 }
 .pic1{
     width: 48px;
@@ -95,8 +97,8 @@ gap: 24px;
 border-radius: 8px;
 background: rgba(255, 255, 255, 0.30);
 position: relative;
-top: 80px;
-left:150px;
+top: 100px;
+margin-left:25%;
 
 }
 .inpo{
@@ -664,68 +666,130 @@ bottom: 30px;
     font-size: 55px;
     margin-left: 50px;
 }
+.bodi{
+    
+}
 
-
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 600px) {
     .top{
        flex-direction: column;
     } 
    .first-dev{
     margin-left: 0%;
     height: 700px;
-    width: 800px;
+    width: 600px;
    }
    .selector{
     flex-direction: column;
+    margin-left:10%;
    }
    .second-dev{
     flex-direction: column;
-    margin-left:50%;
+    margin-left:13%;
+    margin-right:0px;
+    margin-top: 0%;
    }
+   .title5{
+margin-top: 10px;
+}
+  
    .devil, .devil2{
     flex-wrap: wrap;
     margin-left: 0%;
+    margin-top: 0%;
    }
    .devil5{
     flex-wrap: wrap;
    }
+   .chobi1{
+    height: 800px;
+    width: 650px;
+   }
    .mal{
-    top: 180px;
-    left: 50%;
+    top: 430px;
+    left: 38%;
+    font-size: 65px;
+}
+.chobi2{
+    height: 800px;
+    width: 650px;
+}
+.chobi3{
+    height: 1000px;
+    width: 650px; 
 }
 .mal1{
-    top: 550px;
-    left: 4%;
+    top:1270px;
+    left: 1%;
+font-size:70px;
+
 }
-.devil2{
+.title12{
+font-size: 55px;
+margin-top: 55px;
+margin-left: 12%;
+}
+.about{
+    width: 409px;
+font-size: 37px;
+margin-left:24%;
+margin-right:auto;
+}
+.devil{
+    margin-top: 0%;
+}
+.head{
+    flex-direction: column;
+    margin-left: 10%;
+
+}
+/* .devil2{
     margin-left: 0%;
     margin-top: 0px;
 }
 .devil5{
     margin-top:0%;
-}
+} */
 .sri{
-    top: 450px;
+    top: 950px;
     left:150px;
-}
+    font-size: 60px;
+    }
+ .devil5{
+        gap: 13px;
+
+    }
 .north{
-    top: 665px;
+    top: 1765px;
     left: 160px;
+    font-size: 60px;
 }
 .kasmir{
-    top: 840px;
-    left: 120px;
+    top: 2550px;
+    left: 160px;
+    font-size: 60px;
 }
 .bang{
-    top: 250px;
+    top: 750px;
     left: 160px;
+    font-size: 60px;
+    color: rgb(233, 220, 223);
 }
 .ban{
-    top: 490px;
-    left: 20px;
+    top: 1600px;
+    left: 120px;
+    font-size: 60px;
 }
-.title1,  .about2{
-    margin-left: 0%;
+.title1{
+
+margin-left: 80px;
+font-size: 65px;
+margin-top: 40px;
+}
+.about2{
+    width: 500px;
+    margin-left:10%;
+    font-size:35px;
 }
 .demu{
     flex-direction: column;
@@ -734,14 +798,38 @@ bottom: 30px;
 .amad{
     margin-left: 0%;
 }
+.chobi4{
+    margin-left: 50%;
+}
+.hand{
+    margin-left: 170px;
+    font-size: 35px;
+}
+.goust, .goust1, .amad{
+   margin-left: 30px;
+    }
+    .pera{
+        width: 550px;
+        font-size: 25px;
+        padding-left: 30px;
+    }
 .seco{
-    margin-left: 0px;
-   width: 400px;
+    margin-left: 20px;
+   width: 635px;
 }
 .middle-section, .section-mid{
-    margin-left: 0%;
+    margin-left: 15%;
     flex-direction: column;
 }
+.chobi5{
+    height: 550px;
+    width: 500px;
+    border-radius: 15px;
+}
+.tori[
+    
+]
+
 /* .title6,.description{
 align-items: flex-start;
 margin-right: 100%;
@@ -774,6 +862,11 @@ margin-top: 140px;
 
 
 }
+.top{
+    gap: 10px;
+    margin-left: 10%;
+    
+}
 .ses-pera{
         align-items: none;
         margin-left:0%;
@@ -786,7 +879,16 @@ margin-top: 140px;
     margin-left: 80px;
     
 }
+.title{
+    margin-left:5%;
+    }
+ .title-des{
+        width: 300px;
+    margin-left: 23%;
+    }
+
 }
+
 
 
 

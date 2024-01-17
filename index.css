@@ -674,18 +674,22 @@ bottom: 30px;
 }
 
 @media screen and (max-width: 600px) {
-    .top{
+    /* .top{
        flex-direction: column;
-    } 
+    }  */
    .first-dev{
     margin-left: 0%;
-    height: 700px;
+    height: 800px;
     width: 600px;
    }
    .selector{
     flex-direction: column;
-    margin-left:10%;
+    margin-left:15%;
    }
+   .navo, nav>a{
+    font-size: 28px;
+   }
+   
    .second-dev{
     flex-direction: column;
     margin-left:13%;
@@ -744,6 +748,7 @@ margin-right:auto;
 .head{
     flex-direction: column;
     margin-left: 10%;
+    gap: 10px;
 
 }
 /* .devil2{
@@ -966,37 +971,33 @@ left: 230px;
 .foot{
     width:500px;
 height: 502px;
+margin-left: 10px;
 
 }
 .pic1{
     margin-left: 0%;
 }
-.dream{
-    margin-left: 0%;
+.dream, .spon{
+   font-size: 50px;
 }
-.icon{
-    
-margin-left: 80px;
+.icon{   
+margin-left: 200px;
 margin-top: 140px;
-
-
+}
+.ses{
+    font-size: 30px;
 }
 .top{
     gap: 10px;
-    margin-left: 10%;
-    
+    margin-left: 10%;  
 }
 .ses-pera{
-        align-items: none;
-        margin-left:0%;
-        margin-right: auto;
-    
-    
+    width: 550px;
+    font-size: 25px;
+        margin-left:10%;
 }
 .top10{
-   
-    margin-left: 80px;
-    
+    margin-left: 100px;
 }
 .title{
     margin-left:5%;
@@ -1004,8 +1005,17 @@ margin-top: 140px;
  .title-des{
         width: 300px;
     margin-left: 23%;
+    font-size: 22px;
     }
-
+    .foot{
+        width: 650px;
+        border-radius: 20px;
+    height: 662px;
+    margin-top: 5px;
+    }
+    .evan{
+        width: 500px;
+    }
 }
 
 
